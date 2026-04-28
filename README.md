@@ -21,6 +21,20 @@
 
 <div align="center">
 
+
+## 💡 Why This Exists
+
+**I spent way too long figuring out the right *order* to do all of this.**
+
+**Most vibe coding guides give you tools. Nobody tells you **when** to use them.
+This repo is my attempt to fix that — everything I learned about shipping an
+AI-assisted project properly, arranged in the sequence that actually makes sense.**
+
+***If you're building something with Antigravity, Cursor, Lovable, Bolt, or any AI tool —
+this is the checklist I wish I had on day one.***
+
+---
+
 ## 🗺️ The Sequence
 
 *Most vibecoders do this in the wrong order. Here's the right one.*
@@ -92,24 +106,16 @@ Visit https://stripe.com and take a full-page screenshot
 
 ### ⚡ Step 2 — Connect Stitch via MCP
 
-```bash
-# Install the Stitch MCP server
-npm install -g @stitch/mcp-server
-stitch-mcp --version   # verify
-```
+**In Antigravity → Settings → MCP Connections → Add New:**
 
-**Create `~/.stitch/mcp-config.json`:**
+| Field | Value |
+|---|---|
+| Name | Stitch UI Builder |
+| URL | `https://stitch.googleapis.com/mcp` |
+| Protocol | MCP v1 |
+| Auth | API Key |
 
-```json
-{
-  "apiKey": "YOUR_STITCH_API_KEY",
-  "projectId": "YOUR_PROJECT_ID",
-  "port": 3456,
-  "allowedOrigins": ["antigravity://app"]
-}
-```
-
-**Or use this format (Claude Desktop / Cursor style):**
+**MCP config format (Claude Desktop / Cursor style):**
 
 ```json
 {
@@ -124,23 +130,11 @@ stitch-mcp --version   # verify
 }
 ```
 
-```bash
-stitch-mcp start --config ~/.stitch/mcp-config.json
-# Keep this terminal open while you work
-```
+Get your Stitch API key at → [stitch.withgoogle.com](https://stitch.withgoogle.com) → Account → API Access
 
-**In Antigravity → Settings → MCP Connections → Add New:**
-
-| Field | Value |
-|---|---|
-| Name | Stitch UI Builder |
-| URL | `http://localhost:3456` |
-| Protocol | MCP v1 |
-| Auth | Bearer `YOUR_STITCH_API_KEY` |
+> ⚠️ MCP support in Stitch is evolving. Always check [codvyn.in](https://codvyn.in) for the latest setup steps.
 
 **Verify:** Type `@Stitch create a simple card component with a purple button` — renders = fully connected ✅
-
-<br/>
 
 ### ⚡ Step 3 — The Master Prompt
 
