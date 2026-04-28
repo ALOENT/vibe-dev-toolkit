@@ -46,7 +46,7 @@ this is the checklist I wish I had on day one.***
 ```
 ┌──────────────────────────────────────────────────────────────────────────┐
 │                                                                          │
-│   🏗️  BUILD        🔒  SECURE       🔍  SEO         🚀  LAUNCH           │
+│   🏗️  BUILD        🔒  SECURE       🔍  SEO         🚀  LAUNCH         │
 │   Codvyn           Security         AI Website      Pre-Launch           │
 │   Workflow    →    Audit       →    Setup      →    Checklist            │
 │                                                                          │
@@ -78,7 +78,7 @@ this is the checklist I wish I had on day one.***
 ```
 ┌─────────────────┐      ┌─────────────────┐      ┌─────────────────┐
 │                 │      │                 │      │                 │
-│  ANTIGRAVITY    │ ───▶ │     CLAUDE      │ ───▶ │    STITCH       │
+│  ANTIGRAVITY    │ ───▶ │     CLAUDE     │ ───▶ │    STITCH       │
 │  Browser Agent  │      │  Prompt Refiner │      │   UI Builder    │
 │                 │      │                 │      │                 │
 │ Visits your     │      │ Extracts visual │      │ Builds the      │
@@ -640,21 +640,50 @@ Now do this:
 vibe-dev-toolkit/
 │
 ├── 📁 architecture-diagram/
-│   ├── SKILL.md               # Diagram skill instructions
-│   └── assets/template.html   # Base HTML template
+│   ├── SKILL.md                    # Diagram skill instructions
+│   └── assets/template.html        # Base HTML template
 │
 ├── 📁 checklists/
-│   ├── vibe-coding-security.md
-│   └── saas-prelaunch.md
+│   ├── vibe-coding-security.md     # Security audit prompts
+│   └── saas-prelaunch.md          # Pre-launch checklist
 │
 ├── 📁 guides/
-│   ├── ai-website-seo-guide.pdf
-│   └── codvyn-workflow-guide.pdf
+│   ├── ai-website-seo-guide.pdf    # Full SEO guide by @aaditya.web
+│   └── codvyn-workflow-guide.pdf   # Codvyn UI workflow guide
 │
 └── README.md
+
 ```
+## 📚 Original Sources
+
+Everything in this repo is built on top of these — go read them too:
+
+| Resource | What it is | Link |
+|---|---|---|
+| Codvyn Workflow | Full visual-first UI dev workflow | [codvyn.in](https://codvyn.in) |
+| Architecture Diagram Generator | Skill + template by Cocoon AI | [GitHub →](https://github.com/Cocoon-AI/architecture-diagram-generator) |
+| AI Website SEO Guide | Hindi SEO guide for vibecoders | by [@aaditya.web](https://instagram.com/aaditya.web) |
+| Vibe Coding Security Checklist | Security prompts for fast devs | included in repo |
 
 <br/>
+
+---
+
+## 🤝 Contributing
+
+This is a living document — the vibe coding ecosystem changes fast.
+
+If you've found a better prompt, a missing checklist item, a broken tool,
+or a workflow that works better than what's here — PRs are open.
+
+**Ways to contribute:**
+- Found a bug or outdated info → [Open an issue](../../issues)
+- Have a better prompt → Edit the relevant Phase section + PR
+- Found a tool that fits the workflow → Add it with context of *where* it fits
+- Translated to another language → Add it under `/translations`
+
+**One rule:** Every addition must be something you've actually used.
+No theoretical tools, no untested prompts.
 
 ---
 
