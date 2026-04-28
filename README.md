@@ -19,7 +19,7 @@
 
 ---
 
-<div align="center">
+
 
 
 ## 💡 Why This Exists
@@ -34,6 +34,8 @@ AI-assisted project properly, arranged in the sequence that actually makes sense
 this is the checklist I wish I had on day one.***
 
 ---
+
+<div align="center">
 
 ## 🗺️ The Sequence
 
