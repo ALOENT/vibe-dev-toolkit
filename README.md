@@ -698,6 +698,7 @@ Built on the shoulders of people who actually ship things.
 [![Codvyn](https://img.shields.io/badge/Codvyn%20Workflow-codvyn.in-0ea5e9?style=for-the-badge)](https://codvyn.in)
 [![Cocoon AI](https://img.shields.io/badge/Architecture%20Diagrams-Cocoon%20AI-a78bfa?style=for-the-badge)]([mailto:hello@cocoon-ai.com](https://github.com/Cocoon-AI/architecture-diagram-generator))
 [![aaditya.web](https://img.shields.io/badge/SEO%20Guide-@aaditya.web-e1306c?style=for-the-badge&logo=instagram)](https://instagram.com/aaditya.web)
+[![saban.talks](https://img.shields.io/badge/Pre--Launch%20Checklist-@saban.talks-e1306c?style=for-the-badge&logo=instagram)](https://www.instagram.com/saban.talks)
 
 <br/>
 
